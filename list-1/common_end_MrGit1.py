@@ -14,9 +14,13 @@ def commonEnd(nums1, nums2):
     common_end([1, 2, 3], [1, 3]) → True
     '''
     pass
-
+# Given 2 arrays of ints, a and b, return True if they have the same first element
+# or they have the same last element. Both arrays will be length 1 or more.
 def commonEnd(a,b):
-    #COMMON END AND MONKEY
+    if commonEnd[0] == commonEnd[]
+
+
+#COMMON END AND MONKEY
 
 
 
