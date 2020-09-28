@@ -21,13 +21,13 @@ def commonEnd(nums1, nums2):
 
 def catchFailures(testCase, result):
     global failures
-    
+
     try:
         assert eval(testCase) == result, "Test Case Failed: "+testCase+ " → "+str(result)
     except Exception as e:
         failures += 1
         print(e)
-            
+
 
 
 def test():
@@ -36,8 +36,8 @@ def test():
     catchFailures('commonEnd([1, 2, 3], [7, 3, 2])', False)
     catchFailures('commonEnd([1, 2, 3], [1, 3])', True)
     catchFailures('commonEnd([1, 2, 3], [1])', True)
-    catchFailures('commonEnd([1, 2, 3], [2])', False)    
-    
+    catchFailures('commonEnd([1, 2, 3], [2])', False)
+
     if failures > 0:
         print("\r\n "+ str(failures) + " failed test case(s)   :(")
     else:
