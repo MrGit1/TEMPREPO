@@ -15,7 +15,8 @@ def commonEnd(nums1, nums2):
     '''
     pass
 
-
+def commonEnd(a,b):
+    #COMMON END AND MONKEY
 
 
 
